@@ -1,0 +1,11 @@
+nav {
+  border-bottom: 1px solid var(--pico-form-element-border-color);
+}
+.hero {
+  margin-bottom: 5rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--pico-form-element-border-color);
+}
