@@ -187,7 +187,13 @@ nav details[role="list"] ul a:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   background: #fff;    /* prevents weird color bleed */
 }
-
+article ul {
+  padding-left: 10 rem;
+}
+ul li,
+ol li {
+  color: #1f2933;
+}
 
 nav {
   border-bottom: 1px solid var(--pico-form-element-border-color);
