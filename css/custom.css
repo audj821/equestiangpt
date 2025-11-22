@@ -223,3 +223,21 @@ footer {
   height: auto;
   object-fit: cover;
 }
+/* Make ONLY the header full width */
+.full-width-header {
+  width: 100vw;      /* full viewport width */
+  margin-left: 50%;  /* hack to cancel container padding */
+  transform: translateX(-50%);
+}
+.full-width-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Make the header banner behave like a real full-width site header */
+header img.logo-img {
+    width: 100%;         /* stretch full width */
+    height: auto;        /* keep proper proportions */
+    display: block;      /* removes weird whitespace below images */
+    margin: 0 auto;      /* center it */
+}
