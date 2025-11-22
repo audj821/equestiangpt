@@ -280,3 +280,13 @@ header img.logo-img {
   line-height: 1.5;
   color: #4b5563;
 }
+/* Base vertical rhythm for sections */
+.btw-section {
+  margin: 4.0rem 0;   /* space before & after each section */
+}
+
+/* Optional: tighten heading spacing so it looks intentional */
+.btw-section h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
