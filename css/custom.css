@@ -241,3 +241,42 @@ header img.logo-img {
     display: block;      /* removes weird whitespace below images */
     margin: 0 auto;      /* center it */
 }
+/* Container grid for the three cards */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Individual card style */
+.category-card {
+  display: block;                 /* makes the whole card clickable */
+  background: #ffeefd;            /* your soft pink background */
+  padding: 1.75rem 1.5rem;
+  border-radius: 18px;            /* rounded corners */
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.06);
+  text-decoration: none;          /* remove underline on <a> */
+  color: inherit;                 /* text inherits normal color */
+  transition: transform 0.12s ease, 
+              box-shadow 0.12s ease;
+}
+
+/* Hover effect */
+.category-card:hover {
+  transform: translateY(-3px);   /* tiny lift */
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* Card headings */
+.category-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Card description text */
+.category-card p {
+  margin: 0;
+  line-height: 1.5;
+  color: #4b5563;
+}
